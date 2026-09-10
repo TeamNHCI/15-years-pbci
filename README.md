@@ -2,8 +2,7 @@
 
 > **Workshop · 14 September 2026** <br>
 > BCI Conference, Graz — hosted at **TU Graz** by the **Institute of Neural Engineering** <br>
-> Organized by the group for **Neuroadaptive Human–Computer Interaction (NHCI)**, **BTU Cottbus–Senftenberg**
-> Hosts: Thorsten O. Zander, Marius Klug
+> Organized by the **NHCI group** (Neuroadaptive Human–Computer Interaction), **BTU Cottbus–Senftenberg**
 
 <!-- Optional: add a banner image, event logo, or hosting institution logos here -->
 <!-- ![Workshop banner](images/banner.png) -->
@@ -14,7 +13,7 @@
 
 1. [Motivation](#1-motivation)
 2. [Challenge Outlines](#2-challenge-outlines)
-   1. [Two Strands of Challenges: Neural Engineering and Human Factors](#21-two-strands-of-challenges-neural-engineering-and-human-factors)
+   1. [Two Pillars and a Foundation](#21-two-pillars-and-a-foundation)
    2. [A Change of Perspective: From pBCI to NAT](#22-a-change-of-perspective-from-pbci-to-nat)
 3. [Workshop: Challenge Synthesis](#3-workshop-challenge-synthesis)
 4. [How to Work With This Repository](#4-how-to-work-with-this-repository)
@@ -38,19 +37,52 @@ To that end, the repository serves two main purposes:
 
 ## 2. Challenge Outlines
 
-The workshop framed the open problems of the field along two complementary lines: the concrete engineering problems of measuring and interpreting brain activity, and a broader conceptual shift in how we understand what these systems *are*.
+The challenges outlined here were derived from recurrent, in-depth working sessions of our group — the **Neuroadaptive Human–Computer Interaction (NHCI)** group at **BTU Cottbus–Senftenberg**. The core team consisted of:
 
-### 2.1 Two Strands of Challenges: Neural Engineering and Human Factors
+1. Thorsten Zander (PI, BCI and NAT)
+2. Marius Klug (Group Leader, Young Investigator Group, cognitive neuroscience)
+3. David Trocellier (Postdoc, deep learning)
+4. Gabriel Ivucic (Postdoc, signal processing)
+5. Felix Schröder (Postdoc, cognitive neuroscience)
+6. Atique Ahmed (PhD candidate, artificial intelligence)
+7. Lucija Mihić Zidar (PhD candidate, cognitive neuroscience)
+8. Lea Rabe (PhD candidate, human factors)
 
-The obstacles facing passive BCI fall into two intertwined strands. One is largely technical, concerned with getting reliable signals and interpretations out of the brain; the other is human-centered, concerned with meaning, validity, and use in the real world. Progress in one strand tends to expose new questions in the other.
+The process began with a brainstorming session on the pressing issues facing the field of BCI. The raw issues were then clustered into **seven broad themes**:
 
-| | **Neural Engineering** | **Human Factors** |
-|---|---|---|
-| **Core concern** | Reliably acquiring and decoding brain signals | Meaning, context, and use of the inferred states |
-| **Typical questions** | Signal quality, real-time decoding, robustness, cross-session and cross-user transfer, calibration burden | Defining and labeling mental states, ground truth, ecological validity, individual differences |
-| **Example challenges** | Noise and artifacts, hardware constraints, generalization of classifiers | User trust and acceptance, interpretability, ethics and privacy |
+1. Users and use cases
+2. Scientific rigor
+3. Community outreach
+4. Cognitive neuroscience
+5. Signal processing
+6. Universality
+7. Ethics and legal
 
-> _[Placeholder — expand each strand with the specific challenges raised during the workshop. The table is a starting point; feel free to replace it with fuller prose per strand.]_
+In what follows, these clusters are organized into two pillars — neural engineering and human factors — resting on a shared foundation, and each cluster is defined.
+
+### 2.1 Two Pillars and a Foundation
+
+Not all seven clusters play the same role. Two of them — **neural engineering** and **human factors** — are the *pillars* that carry the field toward real-world integration. One is concerned with getting reliable signals and interpretations out of the brain; the other with the meaning, validity, and responsible use of those interpretations in the world.
+
+But a pillar is only as sound as what it stands on. Both pillars rest on a shared *foundation* of **scientific rigor** and **community**: without rigorous methods to make our findings trustworthy, and a connected community to share and carry them forward, neither pillar can bear weight. Everything above depends on this base holding firm.
+
+**Pillar I — Neural engineering**
+
+- **Signal processing** — Acquiring, cleaning, and decoding brain signals reliably and in real time, under realistic noise and hardware constraints.
+- **Cognitive neuroscience** — Understanding the mental states and underlying neural processes that passive BCIs aim to detect, and what those states actually mean.
+- **Universality** — Achieving generalization across users, sessions, tasks, and devices, while reducing calibration effort and improving transfer.
+
+**Pillar II — Human factors**
+
+- **Users and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
+- **Ethics and legal** — Addressing privacy, informed consent, data protection, responsible use, and the evolving regulatory landscape.
+
+**Foundation — Rigor and community**
+
+- **Scientific rigor** — Ensuring sound methodology, valid ground truth, reproducibility, and robust evaluation, so that findings hold up and transfer beyond a single study.
+- **Community outreach** — Building connections between labs, sharing methods and standards, and communicating with stakeholders beyond the immediate research community.
+
+> _[Note — the assignment of clusters to pillars and foundation is a proposed starting point; move any cluster if your group frames it differently, and expand the definitions as needed.]_
 
 ### 2.2 A Change of Perspective: From pBCI to NAT
 
