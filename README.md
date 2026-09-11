@@ -31,7 +31,7 @@ To that end, the repository serves two main purposes:
 1. **Shared knowledge.** It communicates possible next steps and open challenges for the field while they are still being discussed. What follows is a substantiated draft, not a definitive document: it is meant to be read as something to build on, question, and extend.
 2. **A place for exchange.** It offers a space for interaction and feedback with the community.
 
-> A kind note on the scope of this repo: while the workshop spans both the *foundations* and the *frontiers* of passive BCI, this document concentrates on the frontiers, the open challenges.
+> A kind note on the scope of this repo: while the workshop spans both the *foundations* and the *frontiers* of passive BCI, this document concentrates on the latter.
 
 ---
 
