@@ -50,7 +50,7 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 
 **The process began with a brainstorming session during which we collected the most pressing challenges for the field of passive BCI.** Each of us wrote down issues off the top of our heads. The raw issues were then discussed and clustered.
 
-![Diagram of the challenge clustering process](images/challenge-clustering.png)
+![ADD IMAGE](images/challenge-clustering.png)
 
 <!-- TODO: replace images/challenge-clustering.png with the actual image file committed to the repo, and update the alt text / caption -->
 *From the brainstormed issues to the seven clusters.*
@@ -99,21 +99,19 @@ The challenges of applying passive BCI meaningfully and responsibly in real-worl
 
 *Example:* Developing interfaces that can potentially extrapolate pre-cognitive states raises a whole set of ethical concerns because an individual, by definition, can't be in control of that information. Just to name one example. We as researchers should be involved in developing ethical guidelines that serve as guardrails for the community and that can ultimately inform policy makers. 
 
+**ADD FIGURE**
+
 ### 2.2 Interconnectedness 
 
-This clustering simplifies: the boundaries are porous, and a single piece of work rarely sits in just one cluster. A few examples:
+Of course, the world isn't quite that tidy. The boundaries between clusters are overlapping, and most work touches more than one at a time. *Within a pillar* the links are especially tight — signal processing and universality, for example, are hard to pull apart, since a classifier is only ever as general as its ability to handle noise and the variability from one session to the next. But connections run *across pillars* too: how much universality we actually need depends on the use case we have in mind, and the moment we can decode something about a person, we are faced with questions of ethics and privacy. And all of it rests on the *foundation* — we can only trust a claim about a mental state as far as we trust its ground truth, and we will only build trustworthy classifiers if we agree on standards and verify them across shared data bases.
 
-- **Within a pillar** — signal processing and universality are hard to separate, since a decoding pipeline is only as general as its handling of noise and session-to-session variability.
-- **Across pillars** — how much universality a system needs is set by its intended use case, and whatever it can decode raises questions of ethics and privacy.
-- **Down to the foundation** — a claim about a mental state is only as trustworthy as its ground truth (scientific rigor), and generalizing across labs and datasets depends on shared standards and data (community building).
-
-The clusters are not sealed compartments, but a way to locate a piece of work and see what it touches.
+*We plan to add a figure that represents the interconnections more clearly.* 
 
 ### 2.3 A Change of Perspective: From pBCI to NAT
 
-Taken together, the clusters and their entanglement lead us to one conclusion: passive BCI cannot be advanced piecemeal. We think a shift in perspective is warranted — away from viewing the work narrowly, and toward recognizing that whatever specific challenge we tackle, we are ultimately working on an *interface*. Improving an interface, we would argue, means embracing a more holistic picture of it, one that includes the user, the system, and the loop between them.
+Taken together, the clusters and their entanglement lead us to one conclusion: a shift in perspective is warranted — away from viewing the work narrowly, and toward recognizing that whatever specific challenge we tackle, we are ultimately working on an *interface*. Improving an interface means embracing a more holistic picture of it, one that includes the user, the system, and the loop between them.
 
-Concretely, we see this as a shift from passive BCI as a **decoding problem** — reading a state out of the brain — to **Neuroadaptive Technology (NAT)**, where the brain-derived state is fed back into a system that *adapts* to the user in a closed loop. It changes the question we ask from "how accurately can we classify this state?" to "how should the system respond, and how do human and machine co-adapt over time?" We would urge researchers to frame their work as the whole interface rather than the signal alone — it is what opens the door to implicit control, personalization, and systems that learn from the user during use.
+Concretely, we see this as a shift from passive BCI as a **decoding problem** — reading a state out of the brain — to **Neuroadaptive Technology (NAT)**, where we use BCIs as technology to adapt a machine to the user's state. It changes the question we ask from "how accurately can we classify this state?" to "how should the system respond, and how do human and machine co-adapt over time?" Therefore, we want to invite researchers to frame their work with respect to the whole interface rather than the signal alone.
 
 ---
 
