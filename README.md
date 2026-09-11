@@ -8,10 +8,10 @@
 ## Table of Contents
 
 1. [Motivation](#1-motivation)
-2. [Mapping the challenges](#2-mapping-the-challenges)
-   1. [Challenge clusters](#21-challenge-clusters)
+2. [Mapping Core Challenges](#2-mapping-core-challenges)
+   1. [Challenge Clusters](#21-challenge-clusters)
    2. [Interconnectedness](#22-interconnectedness)
-   3. [A Change of Perspective: From pBCI to NAT](#23-a-change-of-perspective-from-pbci-to-nat)
+   3. [Call for Change of Perspective](#23-call-fora-change-of-perspective)
 3. [Workshop: Challenge Synthesis](#3-workshop-challenge-synthesis)
 4. [Next Steps](#4-next-steps)
 5. [How to Work With This Repository](#5-how-to-work-with-this-repository)
@@ -35,7 +35,7 @@ To that end, the repository serves two main purposes:
 
 ---
 
-## 2. Mapping core challenges 
+## 2. Mapping Core Challenges 
 
 The challenges outlined in the following were derived from recurrent, in-depth working sessions of our group — the **Neuroadaptive Human–Computer Interaction (NHCI)** group at **BTU Cottbus–Senftenberg** prior to the workshop. The core team consisted of:
 
@@ -50,24 +50,29 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 
 **The process began with a brainstorming session during which we collected the most pressing challenges for the field of passive BCI.** Each of us wrote down issues off the top of our heads. The raw issues were then discussed and clustered.
 
+<p align="center">
+  <img src="/vision-meeting-brainstorming.jpeg" alt="Brainstorming kick-off to gather challenges" width="50%">
+  <em>Brainstorming of issues in the pBCI field. Each card represents a challenge, cards are sorted into different topical bins. © Felix Schröder</em>
+</p>
 
-![Brainstorming kick-off to gather challenges](vision-meeting-brainstorming.jpeg)
-
-*Brainstorming of issues in the pBCI field. Each card represents a challenge, cards are sorted into different topical bins. (c) Felix Schröder*
-
-### 2.1 Challenge clusters
+### 2.1 Challenge Clusters
 
 Through further discussions we grouped the individual challenges and organized them according to the following metaphor that emerged in the process: there are some challenges that form the basis of our work which, if addressed, will be beneficial to all other challenges. And then there are strands or *pillars* resting on this *foundation* that are necessary to achieve the goal of a meaningfully applied passive BCI. 
+
+<p align="center">
+  <img src="/foundation-pillars.svg" alt="Overview of challenges clustered based on the foundation and pillar logic introduced above." width="70%">
+  <em>Fig. 1: Overview of broad challenge clusters.</em>
+</p>
 
 #### 2.1.1 Foundation "Common standards"
 
 These challenges concern how research is conducted and connected, thereby defining the quality and impact of our output.
 
-**Scientific rigor** — Ensuring sound methodology, valid ground truth, reproducibility, and robust evaluation, so that findings hold up and transfer beyond a single study.
+**a) Scientific rigor** — Ensuring sound methodology, valid ground truth, reproducibility, and robust evaluation, so that findings hold up and transfer beyond a single study.
 
 *Example:* While cross-validation is widely accepted to validate classifier outputs, the visualization of neurophysiological patterns informing the classifiers is not, eventhough valuable insights can be gained (e.g. distinguishing brain from muscle sources). The field might benefit from widely accepted gold standards to validate results. 
 
-**Community building** — Building connections between labs, sharing methods and standards, and broadening the range of expertise involved.
+**b) Community building** — Building connections between labs, sharing methods and standards, and broadening the range of expertise involved.
 
 *Example:* Standards can only be widely accepted and communicated if a solid network of labs exists that fosters such exchange. We think a network, potentially formalized through a society, would overcome silo-effects while also increasing quality and impact of our research.
 
@@ -75,15 +80,15 @@ These challenges concern how research is conducted and connected, thereby defini
 
 The technical challenges of acquiring, processing, and decoding brain signals reliably. The focus is on turning raw neural activity into usable, generalizable information.
 
-**Signal processing** — Acquiring, cleaning, and decoding brain signals reliably and in real time, under realistic noise and hardware constraints.
+**a) Signal processing** — Acquiring, cleaning, and decoding brain signals reliably and in real time, under realistic noise and hardware constraints.
 
 *Example:* To apply EEG in real-world contexts, we will most likely work with low-density form factors to record brain activation. Current artifact handling methods, such as ICA, rely on full head coverage. Therefore we must compare and find solutions that work reliably with low density setups and that, ideally, are form factor-agnostic. 
 
-**Cognitive neuroscience** — Understanding the mental states and underlying neural processes that passive BCIs aim to detect.
+**b) Cognitive neuroscience** — Understanding the mental states and underlying neural processes that passive BCIs aim to detect.
 
 *Example:* So far we don't have a clear understanding about the transferability of classifiers, that is how well a classifier trained on a specific mental state can be applied in different scenarios eliciting the same mental state (cross-task, within subject). We believe a deeper understanding of the cognitive and neural underpinnings is a crucial step in order to achieve reliable cross-task classifiers. 
 
-**Universality** — Achieving generalization across users, sessions, tasks, and devices, while reducing calibration effort and improving transfer.
+**c) Universality** — Achieving generalization across users, sessions, tasks, and devices, while reducing calibration effort and improving transfer.
 
 *Example:* For some real-world scenarios, it will be a challenge or impossible to derive event markers. How can we build classifiers then, that can be applied continuously, without markers?
 
@@ -91,23 +96,21 @@ The technical challenges of acquiring, processing, and decoding brain signals re
 
 The challenges of applying passive BCI meaningfully and responsibly in real-world settings. The focus is on who the technology is for and how its use affects people.
 
-**Stakeholders and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
+**a) Stakeholders and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
 
 *Example:* The (rare) studies that test paradigms with real users in real settings, usually come from a neural engineering angle (does the classifier work in a realisitc scenario?). Whereas, the user's perspective on the technology is mostly disregarded. We think it's inevitable to understand how the interface should be designed or which concerns/expectations/beliefs users hold if we really aim for a real-world integration of the technology. 
 
-**Ethics and legal** — Addressing privacy, informed consent, data protection, responsible use, and the evolving regulatory landscape.
+**b) Ethics and legal** — Addressing privacy, informed consent, data protection, responsible use, and the evolving regulatory landscape.
 
 *Example:* Developing interfaces that can potentially extrapolate pre-cognitive states raises a whole set of ethical concerns because an individual, by definition, can't be in control of that information. Just to name one example. We as researchers should be involved in developing ethical guidelines that serve as guardrails for the community and that can ultimately inform policy makers. 
 
-**ADD FIGURE**
-
 ### 2.2 Interconnectedness 
 
-Of course, the world isn't quite that tidy. The boundaries between clusters are overlapping, and most work touches more than one at a time. *Within a pillar* the links are especially tight — signal processing and universality, for example, are hard to pull apart, since a classifier is only ever as general as its ability to handle noise and the variability from one session to the next. But connections run *across pillars* too: how much universality we actually need depends on the use case we have in mind, and the moment we can decode something about a person, we are faced with questions of ethics and privacy. And all of it rests on the *foundation* — we can only trust a claim about a mental state as far as we trust its ground truth, and we will only build trustworthy classifiers if we agree on standards and verify them across shared data bases.
+Of course, our categorization is a simplification, as any model is. The boundaries between clusters are overlapping, and most work touches more than one at a time. *Within a pillar* the overlaps are especially prevalent — signal processing and universality, for example, are hard to disentangle, since a classifier is only ever as general as its ability to handle noise and the variability from one session to the next. But overlaps exist *between pillars* too: how much universality we actually need depends on the use case we have in mind, and the moment we can decode something about a person, we are faced with questions of ethics and privacy. And all of it rests on the *foundation* — we can only trust a claim about a mental state as far as we trust its ground truth, and we will only build trustworthy classifiers if we agree on standards and verify them across shared data bases.
 
 *We plan to add a figure that represents the interconnections more clearly.* 
 
-### 2.3 A Change of Perspective: From pBCI to NAT
+### 2.3 Call for a Change of Perspective
 
 Taken together, the clusters and their entanglement lead us to one conclusion: a shift in perspective is warranted — away from viewing the work narrowly, and toward recognizing that whatever specific challenge we tackle, we are ultimately working on an *interface*. Improving an interface means embracing a more holistic picture of it, one that includes the user, the system, and the loop between them.
 
@@ -124,7 +127,7 @@ Concretely, we see this as a shift from passive BCI as a **decoding problem** �
 
 ## 4. Next Steps
 
-The work does not end with the workshop. The immediate next steps are:
+After the workshop we plan to pursue the following steps:
 
 1. **Synthesize the workshop.** The results of the workshop will be synthesized and uploaded here.
 2. **Merge internal and expert insights.** We will combine the insights we developed internally (see [Section 2](#2-mapping-the-challenges)) with the expert perspectives gained at the workshop, to pinpoint blind spots, shifts in emphasis, and overlaps.
@@ -140,8 +143,4 @@ There are three main ways to engage with this repository:
 - **Give feedback.** Share your thoughts, comments, and corrections — including anything you think is missing or wrong. The easiest way is to [open an Issue](../../issues).
 - **Become a contributor.** If you'd like to get more closely involved in the project, get in touch — we welcome new collaborators.
 
-> _[Placeholder — add a short feedback guideline here. For example: how to open an issue, what information to include, whether to label it, or an email address for those who prefer to reach out directly.]_
-
 ---
-
-<!-- Optional footer: license, citation, acknowledgements, contact -->
