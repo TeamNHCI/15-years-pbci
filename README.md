@@ -100,7 +100,7 @@ The challenges of applying passive BCI meaningfully and responsibly in real-worl
 
 **a) Stakeholders and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
 
-*Example:* The (rare) studies that test paradigms with real users in real settings, usually come from a neural engineering angle (does the classifier work in a realisitc scenario?). Whereas, the user's perspective on the technology is mostly disregarded. We think it's inevitable to understand how the interface should be designed or which concerns/expectations/beliefs users hold if we really aim for a real-world integration of the technology. 
+*Example:* The (rare) studies that test paradigms with real users in real settings, usually come from a neural engineering angle (does the classifier work in a realisitc scenario?). Whereas, the user's perspective on the technology is mostly disregarded. We think it's inevitable to understand how the interface should be designed or which concerns/expectations/beliefs users hold if we truely aim for a real-world integration of the technology. 
 
 **b) Ethics and legal** — Addressing privacy, informed consent, data protection, responsible use, and the evolving regulatory landscape.
 
