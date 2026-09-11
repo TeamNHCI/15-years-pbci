@@ -50,7 +50,7 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 
 **The process began with a brainstorming session during which we collected the most pressing challenges for the field of passive BCI.** Each of us wrote down issues off the top of our heads. The raw issues were then discussed and clustered.
 
-![ADD IMAGE](images/vision-meeting-brainstorming.jpeg)
+![Brainstorming kick-off to gather challenges](vision-meeting-brainstorming.jpeg)
 
 <!-- TODO: replace images/challenge-clustering.png with the actual image file committed to the repo, and update the alt text / caption -->
 *From the brainstormed issues to the seven clusters.*
