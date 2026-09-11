@@ -11,7 +11,7 @@
 2. [Mapping Core Challenges](#2-mapping-core-challenges)
    1. [Challenge Clusters](#21-challenge-clusters)
    2. [Interconnectedness](#22-interconnectedness)
-   3. [Call for Change of Perspective](#23-call-fora-change-of-perspective)
+   3. [Call for Change of Perspective](#23-call-for-a-change-of-perspective)
 3. [Workshop: Challenge Synthesis](#3-workshop-challenge-synthesis)
 4. [Next Steps](#4-next-steps)
 5. [How to Work With This Repository](#5-how-to-work-with-this-repository)
@@ -52,17 +52,19 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 
 <p align="center">
   <img src="/vision-meeting-brainstorming.jpeg" alt="Brainstorming kick-off to gather challenges" width="50%">
-  <em>Brainstorming of issues in the pBCI field. Each card represents a challenge, cards are sorted into different topical bins. © Felix Schröder</em>
 </p>
+<p align="center"><em>Brainstorming of issues in the pBCI field. Each card represents a challenge, cards are sorted into different topical bins. © Felix Schröder</em></p>
+
 
 ### 2.1 Challenge Clusters
 
 Through further discussions we grouped the individual challenges and organized them according to the following metaphor that emerged in the process: there are some challenges that form the basis of our work which, if addressed, will be beneficial to all other challenges. And then there are strands or *pillars* resting on this *foundation* that are necessary to achieve the goal of a meaningfully applied passive BCI. 
 
 <p align="center">
-  <img src="/foundation-pillars.svg" alt="Overview of challenges clustered based on the foundation and pillar logic introduced above." width="70%">
-  <em>Fig. 1: Overview of broad challenge clusters.</em>
+  <img src="/foundation-pillars.svg" alt="Overview of challenges clustered based on the foundation and pillar logic introduced above." width="80%">
 </p>
+<p align="center"><em>Fig. 1: Overview of broad challenge clusters.</em></p>
+
 
 #### 2.1.1 Foundation "Common standards"
 
@@ -130,7 +132,7 @@ Concretely, we see this as a shift from passive BCI as a **decoding problem** �
 After the workshop we plan to pursue the following steps:
 
 1. **Synthesize the workshop.** The results of the workshop will be synthesized and uploaded here.
-2. **Merge internal and expert insights.** We will combine the insights we developed internally (see [Section 2](#2-mapping-the-challenges)) with the expert perspectives gained at the workshop, to pinpoint blind spots, shifts in emphasis, and overlaps.
+2. **Merge internal and expert insights.** We will combine the insights we developed internally (see [Section 2](#2-mapping-core-challenges)) with the expert perspectives gained at the workshop, to pinpoint blind spots, shifts in emphasis, and overlaps.
 3. **Work toward a published guideline.** Ultimately, we aim to develop a published guideline for the field — one that specifically targets the question of how meaningful integration of passive BCIs into real-world contexts can be realized within the next ten years.
 
 ---
@@ -140,7 +142,7 @@ After the workshop we plan to pursue the following steps:
 There are three main ways to engage with this repository:
 
 - **Share it.** Pass it on to researchers and colleagues who work on — or are curious about — passive BCI and neuroadaptive technology.
-- **Give feedback.** Share your thoughts, comments, and corrections — including anything you think is missing or wrong. The easiest way is to [open an Issue](../../issues).
+- **Give feedback.** Share your thoughts, comments, and corrections — including anything you think is missing or wrong. The easiest way is to open an issue.
 - **Become a contributor.** If you'd like to get more closely involved in the project, get in touch — we welcome new collaborators.
 
 ---
