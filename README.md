@@ -1,11 +1,7 @@
 # 15 Years of Passive BCI: Foundations and Frontiers
 
-> **Workshop · 14 September 2026** <br>
-> BCI Conference, Graz — hosted at **TU Graz** by the **Institute of Neural Engineering** <br>
-> Organized by the **NHCI group** (Neuroadaptive Human–Computer Interaction), **BTU Cottbus–Senftenberg**
-
-<!-- Optional: add a banner image, event logo, or hosting institution logos here -->
-<!-- ![Workshop banner](images/banner.png) -->
+> **Repository accompanying the respective workshop at the 10th BCI Graz conference · 14 September 2026** <br>
+> Workshop hosts: Thorsten Zander, Marius Klug | Chair for Neuroadaptive Human–Computer Interaction, BTU Cottbus–Senftenberg, Germany
 
 ---
 
@@ -16,72 +12,67 @@
    1. [Two Pillars and a Foundation](#21-two-pillars-and-a-foundation)
    2. [A Change of Perspective: From pBCI to NAT](#22-a-change-of-perspective-from-pbci-to-nat)
 3. [Workshop: Challenge Synthesis](#3-workshop-challenge-synthesis)
-4. [How to Work With This Repository](#4-how-to-work-with-this-repository)
+4. [Next Steps](#4-next-steps)
+5. [How to Work With This Repository](#5-how-to-work-with-this-repository)
 
 ---
 
 ## 1. Motivation
 
-This repository was created in the scope of the workshop, but it is meant to serve a broader and longer-lasting purpose: to **connect labs working on passive BCI** and to help the field advance together.
+This repository was created in the scope of the workshop, but it is meant to serve a broader and longer-lasting purpose: to connect labs working on passive BCI and to help the field advance together.
 
-Our shared goal is to move passive BCIs **from the lab toward meaningful real-world applications**. This is an inherently interdisciplinary endeavour — one that is best undertaken by combining the competencies of labs across Europe and beyond, rather than in isolation.
+Our shared goal is to move passive BCIs from the lab toward meaningful real-world applications. This is an inherently interdisciplinary endeavour — one that is best undertaken by combining the competencies of labs across Europe and beyond.
 
 To that end, the repository serves two main purposes:
 
-1. **Work in progress, in the open.** It communicates the next steps and open challenges of the field while the work is still ongoing — at a much lower threshold than a scientific publication.
+1. **Shared knowledge.** It communicates possible next steps and open challenges for the field while they are still being discussed. What follows is a substantiated draft, not a definitive document: it is meant to be read as something to build on, question, and extend.
 2. **A place for exchange.** It offers a space for interaction and feedback with the community.
-
-> _[Placeholder — add any further context you'd like here: the workshop's origin, its conveners, or a one-line statement of scope.]_
 
 ---
 
-## 2. Challenge Outlines
+## 2. Establishing a common ground / Deriving challenges / Beyond the workshop 
 
-The challenges outlined here were derived from recurrent, in-depth working sessions of our group — the **Neuroadaptive Human–Computer Interaction (NHCI)** group at **BTU Cottbus–Senftenberg**. The core team consisted of:
+The challenges outlined in the following were derived from recurrent, in-depth working sessions of our group — the **Neuroadaptive Human–Computer Interaction (NHCI)** group at **BTU Cottbus–Senftenberg** prior to the workshop. The core team consisted of:
 
-1. Thorsten Zander (PI, BCI and NAT)
-2. Marius Klug (Group Leader, Young Investigator Group, cognitive neuroscience)
-3. David Trocellier (Postdoc, deep learning)
-4. Gabriel Ivucic (Postdoc, signal processing)
-5. Felix Schröder (Postdoc, cognitive neuroscience)
-6. Atique Ahmed (PhD candidate, artificial intelligence)
-7. Lucija Mihić Zidar (PhD candidate, cognitive neuroscience)
-8. Lea Rabe (PhD candidate, human factors)
+1. Thorsten Zander (PI | BCI and NAT)
+2. Marius Klug (group leader | cognitive neuroscience, signal processing, BCI)
+3. David Trocellier (Postdoc | deep learning)
+4. Gabriel Ivucic (Postdoc | signal processing)
+5. Felix Schröder (Postdoc | cognitive neuroscience)
+6. Atique Ahmed (PhD candidate | artificial intelligence)
+7. Lucija Mihić Zidar (PhD candidate | cognitive neuroscience)
+8. Lea Rabe (PhD candidate | human factors)
 
-The process began with a brainstorming session on the pressing issues facing the field of BCI. The raw issues were then clustered into **seven broad themes**:
+**The process began with a brainstorming session during which we collected the most pressing challenges for the field of passive BCI.** Each of us wrote down issues off the top of our heads. The raw issues were then discussed and clustered
 
-1. Users and use cases
-2. Scientific rigor
-3. Community outreach
-4. Cognitive neuroscience
-5. Signal processing
-6. Universality
-7. Ethics and legal
+**ADD IMAGE**
 
-In what follows, these clusters are organized into two pillars — neural engineering and human factors — resting on a shared foundation, and each cluster is defined.
+### 2.1 Challenge clusters
 
-### 2.1 Two Pillars and a Foundation
+Through further discussions we grouped the indivdual challenges and organized them according to the following metaphore: there are some challenges that are at the basis of our work (community and rigor) which, if addressed, will be beneficial to all other challenges. And then there are strands or *pillars* resting on this *foundation*. 
 
-Not all seven clusters play the same role. Two of them — **neural engineering** and **human factors** — are the *pillars* that carry the field toward real-world integration. One is concerned with getting reliable signals and interpretations out of the brain; the other with the meaning, validity, and responsible use of those interpretations in the world.
+**Foundation — Common standards**
 
-But a pillar is only as sound as what it stands on. Both pillars rest on a shared *foundation* of **scientific rigor** and **community**: without rigorous methods to make our findings trustworthy, and a connected community to share and carry them forward, neither pillar can bear weight. Everything above depends on this base holding firm.
-
+- **Scientific rigor** — Ensuring sound methodology, valid ground truth, reproducibility, and robust evaluation, so that findings hold up and transfer beyond a single study.
+- **Community outreach** — Building connections between labs, sharing methods and standards, and diversifying the expertise.
+  
 **Pillar I — Neural engineering**
 
 - **Signal processing** — Acquiring, cleaning, and decoding brain signals reliably and in real time, under realistic noise and hardware constraints.
-- **Cognitive neuroscience** — Understanding the mental states and underlying neural processes that passive BCIs aim to detect, and what those states actually mean.
+- **Cognitive neuroscience** — Understanding the mental states and underlying neural processes that passive BCIs aim to detect.
 - **Universality** — Achieving generalization across users, sessions, tasks, and devices, while reducing calibration effort and improving transfer.
 
 **Pillar II — Human factors**
 
-- **Users and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
+- **Stakeholders and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
 - **Ethics and legal** — Addressing privacy, informed consent, data protection, responsible use, and the evolving regulatory landscape.
 
-**Foundation — Rigor and community**
 
-- **Scientific rigor** — Ensuring sound methodology, valid ground truth, reproducibility, and robust evaluation, so that findings hold up and transfer beyond a single study.
-- **Community outreach** — Building connections between labs, sharing methods and standards, and communicating with stakeholders beyond the immediate research community.
 
+While they could be viewed separately, we went one step further and streamlined them 
+Not all seven clusters play the same role. Two of them — **neural engineering** and **human factors** — are the *pillars* that carry the field toward real-world integration. One is concerned with getting reliable signals and interpretations out of the brain; the other with the meaning, validity, and responsible use of those interpretations in the world.
+
+But a pillar is only as sound as what it stands on. Both pillars rest on a shared *foundation* of **scientific rigor** and **community**: without rigorous methods to make our findings trustworthy, and a connected community to share and carry them forward, neither pillar can bear weight. Everything above depends on this base holding firm.
 > _[Note — the assignment of clusters to pillars and foundation is a proposed starting point; move any cluster if your group frames it differently, and expand the definitions as needed.]_
 
 ### 2.2 A Change of Perspective: From pBCI to NAT
@@ -113,7 +104,13 @@ This section collects the **synthesis** that emerged from the workshop — the c
 
 ---
 
-## 4. How to Work With This Repository
+## 4. Next Steps
+
+> _[Placeholder — outline where the project goes from here. This might include planned additions to the repository, upcoming milestones, open questions to pursue, or ways the field's next steps will be tracked and updated over time.]_
+
+---
+
+## 5. How to Work With This Repository
 
 There are three main ways to engage with this repository:
 
