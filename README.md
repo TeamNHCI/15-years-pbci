@@ -20,11 +20,11 @@
 
 ## 1. Motivation
 
-This repository was created in the scope of the workshop, but it is meant to serve a broader and longer-lasting purpose: to connect labs working on passive BCI and to help the field advance together.
+This repository was created in the scope of the workshop, but it is meant to serve a broader and longer-lasting purpose: **to connect labs working on passive BCI and to help the field advance together**.
 
-Our shared goal is to move passive BCIs from the lab toward meaningful real-world applications. This is an inherently interdisciplinary endeavour — one that is best undertaken by combining the competencies of labs across Europe and beyond.
+Our shared goal is to move passive BCIs from the lab toward *meaningful* real-world applications. This is an inherently interdisciplinary endeavour — one that is best undertaken by combining the competencies of labs across Europe and beyond.
 
-We use *meaningful* in a specific sense, with two conditions. First, the neural signal must make a unique, **non-substitutable** contribution — the same information cannot be obtained (more easily) from other measures such as eye tracking or overt behaviour. Second, the resulting system must **add value in a real-world task for real end users** — for example, supporting pilots as they operate an aircraft.
+With *"meaningful"* we imply two requirements: First, the neural signal must make a unique, **non-substitutable** contribution - the same information cannot be obtained (more easily) from other measures such as eye tracking or overt behaviour. Second, the resulting system must **add value in a real-world task for real end users**.
 
 To that end, the repository serves two main purposes:
 
@@ -35,7 +35,7 @@ To that end, the repository serves two main purposes:
 
 ---
 
-## 2. Mapping the challenges 
+## 2. Mapping core challenges 
 
 The challenges outlined in the following were derived from recurrent, in-depth working sessions of our group — the **Neuroadaptive Human–Computer Interaction (NHCI)** group at **BTU Cottbus–Senftenberg** prior to the workshop. The core team consisted of:
 
@@ -57,7 +57,7 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 
 ### 2.1 Challenge clusters
 
-Through further discussions we grouped the individual challenges and organized them according to the following metaphor that emerged in the process: there are some challenges that form the basis of our work which, if addressed, will be beneficial to all other challenges. And then there are strands or *pillars* resting on this *foundation*. 
+Through further discussions we grouped the individual challenges and organized them according to the following metaphor that emerged in the process: there are some challenges that form the basis of our work which, if addressed, will be beneficial to all other challenges. And then there are strands or *pillars* resting on this *foundation* that are necessary to achieve the goal of a meaningfully applied passive BCI. 
 
 #### 2.1.1 Foundation "Common standards"
 
@@ -65,11 +65,11 @@ These challenges concern how research is conducted and connected, thereby defini
 
 **Scientific rigor** — Ensuring sound methodology, valid ground truth, reproducibility, and robust evaluation, so that findings hold up and transfer beyond a single study.
 
-*Examples:* _[add concrete examples here]_
+*Example:* While cross-validation is widely accepted to validate classifier outputs, the visualization of neurophysiological patterns informing the classifiers is not, eventhough valuable insights can be gained (e.g. distinguishing brain from muscle sources). The field might benefit from widely accepted gold standards to validate results. 
 
 **Community building** — Building connections between labs, sharing methods and standards, and broadening the range of expertise involved.
 
-*Examples:* _[add concrete examples here]_
+*Example:* Standards can only be widely accepted and communicated if a solid network of labs exists that fosters such exchange. We think a network, potentially formalized through a society, would overcome silo-effects while also increasing quality and impact of our research.
 
 #### 2.1.2 Pillar I "Neural engineering"
 
@@ -77,15 +77,15 @@ The technical challenges of acquiring, processing, and decoding brain signals re
 
 **Signal processing** — Acquiring, cleaning, and decoding brain signals reliably and in real time, under realistic noise and hardware constraints.
 
-*Examples:* _[add concrete examples here]_
+*Example:* To apply EEG in real-world contexts, we will most likely work with low-density form factors to record brain activation. Current artifact handling methods, such as ICA, rely on full head coverage. Therefore we must compare and find solutions that work reliably with low density setups and that, ideally, are form factor-agnostic. 
 
 **Cognitive neuroscience** — Understanding the mental states and underlying neural processes that passive BCIs aim to detect.
 
-*Examples:* _[add concrete examples here]_
+*Example:* So far we don't have a clear understanding about the transferability of classifiers, that is how well a classifier trained on a specific mental state can be applied in different scenarios eliciting the same mental state (cross-task, within subject). We believe a deeper understanding of the cognitive and neural underpinnings is a crucial step in order to achieve reliable cross-task classifiers. 
 
 **Universality** — Achieving generalization across users, sessions, tasks, and devices, while reducing calibration effort and improving transfer.
 
-*Examples:* _[add concrete examples here]_
+*Example:* For some real-world scenarios, it will be a challenge or impossible to derive event markers. How can we build classifiers then, that can be applied continuously, without markers?
 
 #### 2.1.3 Pillar II "Human factors"
 
@@ -93,11 +93,11 @@ The challenges of applying passive BCI meaningfully and responsibly in real-worl
 
 **Stakeholders and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
 
-*Examples:* _[add concrete examples here]_
+*Example:* The (rare) studies that test paradigms with real users in real settings, usually come from a neural engineering angle (does the classifier work in a realisitc scenario?). Whereas, the user's perspective on the technology is mostly disregarded. We think it's inevitable to understand how the interface should be designed or which concerns/expectations/beliefs users hold if we really aim for a real-world integration of the technology. 
 
 **Ethics and legal** — Addressing privacy, informed consent, data protection, responsible use, and the evolving regulatory landscape.
 
-*Examples:* _[add concrete examples here]_
+*Example:* Developing interfaces that can potentially extrapolate pre-cognitive states raises a whole set of ethical concerns because an individual, by definition, can't be in control of that information. Just to name one example. We as researchers should be involved in developing ethical guidelines that serve as guardrails for the community and that can ultimately inform policy makers. 
 
 ### 2.2 Interconnectedness 
 
