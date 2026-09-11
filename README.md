@@ -43,7 +43,7 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 7. Lucija Mihić Zidar (PhD candidate | cognitive neuroscience)
 8. Lea Rabe (PhD candidate | human factors)
 
-**The process began with a brainstorming session during which we collected the most pressing challenges for the field of passive BCI.** Each of us wrote down issues off the top of our heads. The raw issues were then discussed and clustered
+**The process began with a brainstorming session during which we collected the most pressing challenges for the field of passive BCI.** Each of us wrote down issues off the top of our heads. The raw issues were then discussed and clustered.
 
 **ADD IMAGE**
 
@@ -52,55 +52,40 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 Through further discussions we grouped the indivdual challenges and organized them according to the following metaphore: there are some challenges that are at the basis of our work (community and rigor) which, if addressed, will be beneficial to all other challenges. And then there are strands or *pillars* resting on this *foundation*. 
 
 **Foundation — Common standards**
+These challenges concern how research is conducted and connected, thereby defining the quality and impact of our output.
 
 - **Scientific rigor** — Ensuring sound methodology, valid ground truth, reproducibility, and robust evaluation, so that findings hold up and transfer beyond a single study.
 - **Community outreach** — Building connections between labs, sharing methods and standards, and diversifying the expertise.
   
 **Pillar I — Neural engineering**
+The technical challenges of acquiring, processing, and decoding brain signals reliably. The focus is on turning raw neural activity into usable, generalizable information.
 
 - **Signal processing** — Acquiring, cleaning, and decoding brain signals reliably and in real time, under realistic noise and hardware constraints.
 - **Cognitive neuroscience** — Understanding the mental states and underlying neural processes that passive BCIs aim to detect.
 - **Universality** — Achieving generalization across users, sessions, tasks, and devices, while reducing calibration effort and improving transfer.
 
 **Pillar II — Human factors**
+The challenges of applying passive BCI meaningfully and responsibly in real-world settings. The focus is on who the technology is for and how its use affects people.
 
 - **Stakeholders and use cases** — Identifying who passive BCI is for and which real-world problems it should address, grounding development in concrete, realistic application scenarios.
 - **Ethics and legal** — Addressing privacy, informed consent, data protection, responsible use, and the evolving regulatory landscape.
 
+### 2.2 Interconnectedness 
 
+TO DO: the world is not that simple... explain how clusters might overlap and give some examples. within a pillar the clusters are highly interconnected, e.g. signal processing and universality. As a researcher one must be clear about that, it guides and focuses the work
 
-While they could be viewed separately, we went one step further and streamlined them 
-Not all seven clusters play the same role. Two of them — **neural engineering** and **human factors** — are the *pillars* that carry the field toward real-world integration. One is concerned with getting reliable signals and interpretations out of the brain; the other with the meaning, validity, and responsible use of those interpretations in the world.
-
-But a pillar is only as sound as what it stands on. Both pillars rest on a shared *foundation* of **scientific rigor** and **community**: without rigorous methods to make our findings trustworthy, and a connected community to share and carry them forward, neither pillar can bear weight. Everything above depends on this base holding firm.
-> _[Note — the assignment of clusters to pillars and foundation is a proposed starting point; move any cluster if your group frames it differently, and expand the definitions as needed.]_
-
-### 2.2 A Change of Perspective: From pBCI to NAT
+### 2.3 A Change of Perspective: From pBCI to NAT
 
 A recurring theme is a shift in perspective: from treating passive BCI as a **decoding problem** — reading a state out of the brain — toward **Neuroadaptive Technology (NAT)**, where the brain-derived state is fed back into a system that *adapts* to the user in a closed loop.
 
 This reframing changes the questions we ask. Rather than "how accurately can we classify this state?", NAT asks "how should a system respond to it, and how do human and machine co-adapt over time?" It moves the emphasis from the interface toward the interaction, and opens the door to implicit control, personalization, and systems that learn from the user during use.
 
-> _[Placeholder — add the specific argument made in the workshop for this shift, and any examples or references that illustrate it.]_
-
 ---
 
 ## 3. Workshop: Challenge Synthesis
 
-This section collects the **synthesis** that emerged from the workshop — the challenges as they were consolidated, prioritized, or reframed through discussion, and the directions identified for future work.
+> _[Placeholder — content will be synthesized and updated after the workshop.]_
 
-> _[Placeholder — add the synthesized outcomes here. Depending on how the discussion went, this might be a ranked list of open challenges, a set of themes, a roadmap, or short summaries contributed by each group.]_
-
-<!-- Example structure you might use:
-
-### Key challenges identified
-- [ ] Challenge 1 — short description
-- [ ] Challenge 2 — short description
-
-### Directions for future work
-1. ...
-2. ...
--->
 
 ---
 
