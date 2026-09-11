@@ -58,7 +58,7 @@ The challenges outlined in the following were derived from recurrent, in-depth w
 
 ### 2.1 Challenge Clusters
 
-Through further discussions we grouped the individual challenges and organized them according to the following metaphor that emerged in the process: there are some challenges that form the basis of our work which, if addressed, will be beneficial to all other challenges. And then there are strands or *pillars* resting on this *foundation* that are necessary to achieve the goal of a meaningfully applied passive BCI. 
+Through further discussions we grouped the individual challenges and organized them according to the following metaphor that emerged in the process: there are some challenges that form the basis of our work which, if addressed, will be beneficial to all other challenges. In addition, there are strands or *pillars* resting on this *foundation* that are necessary to achieve the goal of a meaningfully applied passive BCI. 
 
 <p align="center">
   <img src="/foundation-pillars.svg" alt="Overview of challenges clustered based on the foundation and pillar logic introduced above." width="80%">
